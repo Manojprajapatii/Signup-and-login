@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/signin"
+        android:scaleType="fitXY"
+        />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="Enter your Name" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/etName"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="@string/enter_your_mail_addrees" />
+
+    <EditText
+        android:id="@+id/atPasswrod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/etEmail"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="@string/enter_your_password" />
+
+    <EditText
+        android:id="@+id/etUniqueId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_unique_id"
+        android:layout_below="@+id/atPasswrod"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+       />
+
+    <Button
+        android:id="@+id/signButton"
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUniqueId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="@string/sign_up" />
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/signButton"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="If already registered, SIGN IN" />
+
+
+</RelativeLayout>

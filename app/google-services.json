@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23976629467",
+    "project_id": "signupdatabase-18fb5",
+    "storage_bucket": "signupdatabase-18fb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23976629467:android:3a8e6c7d20356453e528fe",
+        "android_client_info": {
+          "package_name": "com.example.singupdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChbCuUS7CxiM4Dcr5zwMWCnnUrdWe-gLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
